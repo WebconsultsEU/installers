@@ -17,7 +17,12 @@
             "name": "Kyle Robinson Young",
             "email": "kyle@dontkry.com",
             "homepage": "https://github.com/shama"
+        },
+        {
+            "name": "John Behrens",
+            "homepage": "https://github.com/webconsultseu"
         }
+
     ],
     "autoload": {
         "psr-0": { "Composer\\Installers\\": "src/" }
@@ -25,12 +30,12 @@
     "extra": {
         "class": "Composer\\Installers\\Installer",
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.1-dev"
         }
     },
     "replace": {
         "shama/baton": "*",
-        "composer/installer": "*"
+        "composer/installers": "*"
     },
     "require-dev": {
         "composer/composer": "1.0.*@dev",
