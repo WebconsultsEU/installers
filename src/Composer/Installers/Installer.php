@@ -22,6 +22,7 @@ class Installer extends LibraryInstaller
         'drupal'       => 'DrupalInstaller',
         'fuel'         => 'FuelInstaller',
         'joomla'       => 'JoomlaInstaller',
+        'custom'       => 'CustomInstaller',
         'kohana'       => 'KohanaInstaller',
         'laravel'      => 'LaravelInstaller',
         'lithium'      => 'LithiumInstaller',
