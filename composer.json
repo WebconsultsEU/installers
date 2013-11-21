@@ -2,7 +2,7 @@
     "name": "webconsultseu/installers",
     "type": "composer-installer",
     "license": "MIT",
-    "description": "A multi-framework Composer library installer",
+    "description": "Extended Multi Framework installer",
     "keywords": [
         "installer", "cakephp", "laravel", "kohana",
         "li3", "lithium", "mako","fuelphp",
@@ -29,7 +29,8 @@
         }
     },
     "replace": {
-        "shama/baton": "*"
+        "shama/baton": "*",
+        "composer/installer": "*"
     },
     "require-dev": {
         "composer/composer": "1.0.*@dev",
